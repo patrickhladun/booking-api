@@ -1,10 +1,13 @@
 {
   "name": "booking-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "author": "Patrick Hladun",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js --exec babel-node -e js --trace-warnings"
+  },
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
